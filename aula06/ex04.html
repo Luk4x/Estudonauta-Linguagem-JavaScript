@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>manipulando dados</title>
+</head>
+<body>
+    <script>
+        var nome = prompt('Digite seu nome:')
+        var sal = parseInt(prompt('Digite um salário:'))
+        document.write(`${nome.toUpperCase()}, seu nome tem ${nome.length} letras.</br>`)
+        document.write(`${sal.toFixed(2).replace('.',',')}\nou\n${sal.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}`)
+    </script>
+</body>
+</html>
