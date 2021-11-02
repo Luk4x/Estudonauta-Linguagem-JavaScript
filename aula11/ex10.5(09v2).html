@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade Simples</title>
+    <style>
+        * {
+            font: normal 15pt Arial;
+        }
+
+        h1 {
+            font: normal 22pt Arial;
+        }
+        
+        body {
+            background: rgb(48, 116, 199);
+        }
+    </style>
+</head>
+<body>
+    <h1>Verificando sua Nacionalidade</h1>
+    Insira seu país de origem: <input type="text" id="nasc">
+    <input type="button" value="Verificar" onclick="verifyNasc()">
+    <div id="resultado"></div>
+    <script>
+        function verifyNasc() {
+            var pais = document.getElementById('nasc').value.toUpperCase()
+            var res = document.getElementById('resultado')
+            res.innerHTML = `<p>Nascendo em <strong>${pais}</strong>, você é:</p>`
+            if (pais == 'BRASIL' || pais == 'BR') {
+                res.innerHTML += '<p><strong>BRASILEIRO!</strong></p>'
+            } else {
+                res.innerHTML += '<p><strong>ESTRANGEIRO!</strong></p>'
+            }
+        }
+    </script>
+</body>
+</html>

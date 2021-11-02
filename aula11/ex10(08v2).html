@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DETRAN</title>
+    <style>
+        * {
+            font: normal 15pt Arial;
+        }
+        
+        h1 {
+            font: normal 22pt Arial;
+        }
+
+        body {
+            background: rgb(7, 139, 139);
+        }
+    </style>
+</head>
+<body>
+    <h1>Sistema de Multas</h1>
+    Velocidade do carro: <input type="number" name="txtvel" id="txtvel"> Km/h
+    <input type="button" value="Verificar" id="btnVerificar">
+    <div id="resultado"></div>
+    <script>
+        document.getElementById('btnVerificar').addEventListener('click', calculate)
+        function calculate() {
+            var vel = Number(document.getElementById('txtvel').value)
+            var res = document.getElementById('resultado')
+            res.innerHTML = `<p>Sua velocidade é de <strong>${vel}Km/h</strong>.</p>`
+            if (vel>80) {
+                res.innerHTML += `<p>Você está acima do limite de 80Km/h, portanto, será <strong>MULTADO</strong>. Dirija com mais cuidado.</p>`
+            } else {
+                res.innerHTML +=`<p>Continue a dirijir com cuidado.</p>`
+            }
+        }
+    </script>
+</body>
+</html>
