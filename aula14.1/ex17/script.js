@@ -7,7 +7,11 @@ function calculateT() {
         var res = document.getElementById('resultado')
         res.innerHTML = ''
         for(var i=1;i<=10;i++) {
-            res.innerHTML += `<option value="${num}X${i}">${num} x ${i} = ${num*i}</option>`
+            var opt = document.createElement('option')
+            opt.text = `${num} x ${i} = ${num*i}`
+            opt.value = `v${i}`
+            res.appendChild(opt)
+            // res.innerHTML += `<option value="v${i}">${num} x ${i} = ${num*i}</option>`
         }
     }
 }
