@@ -1,0 +1,26 @@
+body {
+    background: rgb(68, 122, 192);
+    color: whitesmoke;
+}
+
+header {
+    text-align: center;
+}
+
+section {
+    background: rgb(211, 223, 223);
+    border-radius: 10px;
+    padding: 15px;
+    width: 600px;
+    margin: auto;
+    color: rgb(12, 12, 12);
+    box-shadow: 4px 4px 10px rgba(10, 10, 10, 0.450);
+}
+
+select#sNum {
+    width: 152px;
+}
+footer {
+    text-align: center;
+    font-style: italic;
+}
