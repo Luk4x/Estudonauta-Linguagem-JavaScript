@@ -4,38 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favicon luk4x.ico" type="image/x-icon">
     <title>Somando números</title>
     <style>
+        /*
         body {
-            font: normal 18pt Arial;
-        }
-
-        input {
-            font: normal 16pt Arial;
-            width: 150px;
+            font: 1.5em Arial, sans-serif;
+            background-color: blueviolet;
         }
 
         div#resultado {
             margin-top: 20px;
         }
+        */
+        input {
+            font-size: 1.1em;
+            width: 150px;
+        }
     </style>
 </head>
 <body>
     <h1>Somando Valores</h1>
-    <input type="number" name="n1" id="n1"> +
+    <input type="number" name="nx" id="n1"> +
     <input type="number" name="n2" id="n2">
     <input type="button" value="Somar" onclick="sum()"> <!--onclick="sum(n1, n2)"-->
     <div id="resultado"></div>
-    <script>
-        function sum() {
-            var n1 = document.getElementById('n1').value
-            var n2 = document.querySelector('input#n2').value
-            document.getElementById('resultado').innerHTML = `Resultado de ${n1} + ${n2} = <strong>${Number(n1)+Number(n2)}</strong>`
-        }
-
-        /* function sum(n1, n2) {
-            document.getElementById('resultado').innerHTML = `Resultado de ${n1.value} + ${n2.value} = <strong>${Number(n1.value)+Number(n2.value)}</strong>`
-        } */
-    </script>
+    <script src="script2.js"></script>
 </body>
 </html>

@@ -1,9 +1,5 @@
 body {
-    background: rgb(68, 122, 192);
     color: whitesmoke;
-}
-
-header {
     text-align: center;
 }
 
@@ -17,7 +13,6 @@ section {
     box-shadow: 5px 5px 10px rgba(10, 10, 10, 0.450);
 }
 div {
-    text-align: center;
     padding: 8px;
 }
 
@@ -28,6 +23,14 @@ div#photo > img {
 }
 
 footer {
-    text-align: center;
     font-style: italic;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
