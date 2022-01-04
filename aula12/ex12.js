@@ -1,4 +1,4 @@
-var hour = new Date().getHours()
+let hour = new Date().getHours()
 console.log(`Agora são ${hour} horas.`)
 if (hour>=5 && hour<12) {
     console.log('Bom dia.')

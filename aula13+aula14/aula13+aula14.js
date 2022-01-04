@@ -1,4 +1,4 @@
-var c1=1
+let c1=1
 while (c1<=10) {
     console.log(c1)
     c1++
@@ -11,7 +11,7 @@ do {
 } while (c1>1)
 console.log()
 
-var c2=0
+let c2=0
 do {
     c2++
     while (c1<=10 || c1<=20) {
@@ -21,6 +21,6 @@ do {
 } while (c2<=2)
 console.log()
 
-for (var c3=20;c3>=1;c3--) {
+for (let c3=20;c3>=1;c3--) {
     console.log(c3)
 }

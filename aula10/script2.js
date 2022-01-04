@@ -3,8 +3,8 @@ document.body.style.backgroundColor = 'blueviolet'
 document.getElementById('resultado').style.marginTop = '30px'
 
 function sum() {
-    var n1 = document.getElementById('n1').value
-    var n2 = document.querySelector('input#n2').value
+    let n1 = document.getElementById('n1').value
+    let n2 = document.querySelector('input#n2').value
     document.getElementById('resultado').innerHTML = `Resultado de ${n1} + ${n2} = <strong>${Number(n1)+Number(n2)}</strong>`
 }
 

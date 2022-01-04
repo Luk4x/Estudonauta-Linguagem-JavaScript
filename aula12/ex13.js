@@ -1,4 +1,4 @@
-var diaSemana = new Date().getDay()
+let diaSemana = new Date().getDay()
 console.log('Hoje é:')
 switch (diaSemana) {
     case 0:

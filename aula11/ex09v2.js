@@ -2,8 +2,8 @@ document.body.style.backgroundColor = 'rgb(48, 116, 199)'
 document.body.style.font = '1.3em Arial, sans-serif'
 
 function verifyNasc() {
-    var pais = document.getElementById('nasc').value.toUpperCase()
-    var res = document.getElementById('resultado')
+    let pais = document.getElementById('nasc').value.toUpperCase()
+    const res = document.getElementById('resultado')
     res.innerHTML = `<p>Nascendo em <strong>${pais}</strong>, você é:</p>`
     if (pais == 'BRASIL' || pais == 'BR') {
         res.innerHTML += '<p><strong>BRASILEIRO!</strong></p>'

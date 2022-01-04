@@ -15,8 +15,8 @@
 </head>
 <body>
     <script>
-        var nome = prompt('Digite seu nome:')
-        var sal = parseInt(prompt('Digite um salário:'))
+        const nome = prompt('Digite seu nome:')
+        let sal = parseInt(prompt('Digite um salário:'))
         document.write(`${nome.toUpperCase()}, seu nome tem ${nome.length} letras.</br>`)
         document.write(`${sal.toFixed(2).replace('.',',')}\nou\n${sal.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}`)
     </script>

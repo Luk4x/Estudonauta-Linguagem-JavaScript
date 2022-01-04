@@ -1,6 +1,6 @@
 document.body.style.backgroundColor = 'rgb(40, 40, 40)'
         
-var area = document.getElementById('area')
+const area = document.getElementById('area')
 area.innerText = 'Interaja...'
 area.style.width = '300px'
 area.style.height = '300px'
@@ -13,6 +13,7 @@ area.style.position = 'absolute'
 area.style.top = '50%'
 area.style.left = '50%'
 area.style.transform = 'translate(-50%, -50%)'
+area.style.borderRadius = '5px'
 
 area.addEventListener('click', click_k)
 area.addEventListener('mouseenter', mouseenter_r)
