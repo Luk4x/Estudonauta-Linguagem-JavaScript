@@ -20,15 +20,15 @@ function sCount() {
         }
 
         const res = document.getElementById('resultado')
-        res.innerHTML = 'Contando:<br>'
+        res.innerHTML = '<h2>Contando:</h2><br>'
 
         if (n1<n2) {
             for(let i=n1;i<=n2;i+=pass) {
-                res.innerHTML += ` ${i} \u{1F449}`
+                res.innerHTML += ` ${i} \u{2192}`
             }
         } else {
             for(let i=n1;i>=n2;i-=pass) {
-                res.innerHTML += ` ${i} \u{1F449}`
+                res.innerHTML += ` ${i} \u{2192}`
             }
         }
         

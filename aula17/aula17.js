@@ -6,6 +6,7 @@ let people = {
         this.weight+=w
     }
 }
+
 console.log(`${people.name} pesa ${people.weight}`)
 people.gain(2)
 console.log(`${people.name} engordou para ${people.weight}kg`)

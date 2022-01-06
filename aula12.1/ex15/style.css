@@ -22,12 +22,15 @@ section {
     box-shadow: 4px 4px 10px rgba(10, 10, 10, 0.450);
 }
 
-input[type="number"] {
-    padding-left: 10px;
-    margin-left: 10px;
+input {
     border: 1px solid black;
     border-radius: 5px;
     background-color: transparent;
+}
+
+input[type="number"] {
+    padding-left: 10px;
+    margin-left: 10px;
 }
 
 input[type="radio"] {
@@ -35,10 +38,8 @@ input[type="radio"] {
 }
 
 input[type="button"] {
-    border-radius: 5px;
-    border: 1px solid black;
     padding: 5px 10px;
-    background-color: transparent;
+    cursor: pointer;
 }
 
 input[type="button"]:hover {

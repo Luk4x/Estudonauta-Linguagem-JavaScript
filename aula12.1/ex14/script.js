@@ -1,8 +1,10 @@
 function loadMainElements(){
     const msg = document.getElementById('msg')
     const img = document.getElementById('image')
+    
     let hour = new Date().getHours()
     msg.innerHTML = `Agora são ${hour} horas.`
+
     if (hour>4 && hour<12) {
         img.src = 'fotoManhaPNG.png'
         document.body.style.background = 'radial-gradient(rgb(254, 190, 126), rgb(170, 116, 62))'

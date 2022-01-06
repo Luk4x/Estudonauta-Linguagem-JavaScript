@@ -1,5 +1,11 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+}
+
 body {
-    background: rgb(68, 122, 192);
+    background: radial-gradient(rgb(91, 68, 192), rgb(53, 22, 124)) no-repeat;
+    height: 97vh;
     color: whitesmoke;
     text-align: center;
 }
@@ -12,6 +18,36 @@ section {
     margin: auto;
     color: rgb(12, 12, 12);
     box-shadow: 4px 4px 10px rgba(10, 10, 10, 0.450);
+}
+
+input {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+input[type="number"] {
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+input[type="button"] {
+    margin-top: 1.5em;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+}
+
+input[type="button"]:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+input[type="button"]:active {
+    opacity: 0.8;
+}
+
+h2 {
+    margin-bottom: 1px;
 }
 
 footer {
