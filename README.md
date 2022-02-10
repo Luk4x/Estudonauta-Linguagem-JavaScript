@@ -1,13 +1,13 @@
 # Estudonauta-JavaScript-Language
 
 ## About
-Exercises made by me, proposed in the JavaScript course at Estudosnauta.com.
+Site to encompass the main exercises proposed at <a href="https://estudonauta.com">Estudonauta</a> JavaScript course.
 
 ## Result
 <img src="./result.png" alt="challenge-result">
 Access the project <a href="https://luk4x.github.io/Estudonauta-Linguagem-JavaScript/">HERE</a>
 
-## 🤝 Contributors Linkedin
+## Contributors Contact
 <table>
   <tr>
     <td align="center">
