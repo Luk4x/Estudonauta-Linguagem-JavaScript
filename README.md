@@ -1,4 +1,18 @@
-# Estudonauta-JavaScript-Language
+<table align="right">
+  <tr>
+    <td>
+      <a href="readme-en.md">🇺🇸 English</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="README.md">🇧🇷 Português</a>
+    </td>
+  </tr>
+</table>
+<br>
+
+👨‍🚀 Estudonauta Project: Javascript Web
 
 ## About
 Site to encompass the main exercises proposed at <a href="https://estudonauta.com">Estudonauta</a> JavaScript course.
