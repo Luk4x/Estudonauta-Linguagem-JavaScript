@@ -78,5 +78,5 @@ Feito isso, no terminal:
 </table>
 
 <p align="right">
-  <a href="#-estudonauta-project-desenvolvimento-web-com-html5-e-css3">Voltar ao Topo</a>
+  <a href="#-estudonauta-project-javascript-web">Voltar ao Topo</a>
 </p>
