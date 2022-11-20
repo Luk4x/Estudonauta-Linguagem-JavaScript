@@ -65,17 +65,38 @@ Feito isso, no terminal:
 
 ## 🤝 Contato dos Contribuintes
 
-<table>
+<table border="2">
   <tr>
     <td align="center">
-      <a href="https://www.linkedin.com/in/lucasmacielf/">
-        <img src="https://avatars.githubusercontent.com/Luk4x" width="150px;" alt="Luk4x Github Photo"/><br>
-        <sub>
-          <b>Lucas Maciel</b>
-        </sub>
-      </a>
-    </td>
-  </tr>
+      <details>
+        <summary>
+          <b><a href="https://cursos.alura.com.br/vitrinedev/lucasmacielf">Vitrine.Dev</a> 🪟</b>
+          <table>
+            <tr>
+              <td align="center">
+                <a href="https://github.com/Luk4x">
+                  <img src="https://avatars.githubusercontent.com/Luk4x" width="150px;" alt="Luk4x Github Photo"/>
+                </a>
+                <br>
+                <a href="https://www.linkedin.com/in/lucasmacielf/">
+                  <sub>
+                    <b>Lucas Maciel</b>
+                  </sub>
+                </a>
+              </td>
+            </tr>
+          </table>
+        </summary>
+
+| :placard: Vitrine.Dev | Lucas Maciel |
+| -------------  | --- |
+| :sparkles: Nome        | **👨‍🚀 Estudonauta: Javascript Web**
+| :label: Tecnologias | javascript, css, html
+| :camera: Img         | ![](https://user-images.githubusercontent.com/86276393/202922683-83f77d13-4ac3-48e6-ba6e-8b73130b0bba.png#vitrinedev)
+
+</details>
+</td>
+</tr>
 </table>
 
 <p align="right">
